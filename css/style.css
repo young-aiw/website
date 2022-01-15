@@ -21,7 +21,66 @@ p {
 }
 
 /* utility classes */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.text-primery {
+  color: #7fa9ee;
+}
 
+.text-center {
+  text-align: center;
+}
+
+.bg-light {
+  background: #f4f4f4 ;
+  color: #333;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #7fa9ee;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #5e97f1;
+}
 
 
 /* Nav bar */
@@ -35,10 +94,6 @@ p {
   top: 0;
   z-index: 1;
   padding: 1rem;
-}
-
-#nav-bar h1 i {
-  color: #7fa9ee;
 }
 
 #nav-bar ul {
@@ -84,26 +139,21 @@ p {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.heading {
-  font-size: 4rem;
-  margin-bottom: 0.75rem;
-  line-height: 1.1;
+/* section: what i do  */
+
+#what .items {
+  display: flex;
+  padding: 1rem;
 }
 
-.lead {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
+#what .items .item {
+  flex: 1;
+  text-align: center;
 }
 
-.btn {
-  display: inline-block;
-  color: #fff;
-  background-color: #7fa9ee;
-  padding: 0.5rem 2rem;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  background-color: #5e97f1;
+#what .items .item i {
+  background: #7fa9ee;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
