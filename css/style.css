@@ -3,7 +3,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
 }
 
 /* main styling */
@@ -42,6 +45,11 @@ p {
 
 .bg-dark {
   background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #7fa9ee;
   color: #fff;
 }
 
@@ -93,6 +101,11 @@ p {
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
 }
 
 .btn:hover {
@@ -208,3 +221,38 @@ p {
   margin: 0 auto;
   width: 60%;
 }
+
+/* section: contact */
+#contact {
+  display: flex;
+}
+
+#contact .contact-form,
+#contact .contact-img {
+  flex: 1;
+}
+
+#contact .contact-img {
+  background: url(/img/contact.jpg) no-repeat center center/cover;
+}
+
+#contact .contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+
